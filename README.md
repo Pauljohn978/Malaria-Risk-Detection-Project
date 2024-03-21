@@ -1,7 +1,9 @@
-Malaria Risk Detection Project
+Malaria Risk Detection Project:
+
 This project aims to detect malaria risk from cell images using machine learning techniques. It involves processing image data, building a neural network model, and making predictions on new images.
 
-Overview
+Overview:
+
 The project consists of the following main components:
 
 Data Preparation: Resizing images and creating labels for classification.
@@ -9,10 +11,13 @@ Model Building: Building a neural network model using TensorFlow and TensorFlow 
 Model Training: Training the model using the prepared data.
 Model Evaluation: Evaluating the model's performance on test data.
 Prediction: Making predictions on new images using the trained model.
-Setup
+
+Setup:
+
 To run the project, follow these steps:
 
-Install Dependencies: Install the required Python libraries by running:
+Install Dependencies:
+Install the required Python libraries by running:
 
 Copy code
 pip install -r requirements.txt
@@ -25,7 +30,8 @@ Model Training: Train the neural network model by executing the main script:
 css
 Copy code
 python main.py
-Prediction: After training the model, you can make predictions on new images by running:
+Prediction:
+After training the model, you can make predictions on new images by running:
 
 Copy code
 python predict.py
